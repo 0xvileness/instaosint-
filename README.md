@@ -4,3 +4,5 @@ cd instaosint-
 
 pip3 install requirements.txt
 
+python3 insta.py 
+
