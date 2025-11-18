@@ -46,7 +46,7 @@ def obtener_info_osint(username, guardar_csv=True):
 
                 match = re.search(r'@(\w+\.\w+)', correo_oculto)
                 if match:
-                    dominio = match.group(1)
+                    domain = match.group(1)
                     result['domain'] = domain
 
                     if "gmail.com" in domain:
